@@ -8,8 +8,12 @@
       其间，在季羡林、冯其庸等国学大师及著名文史学家傅璇琮、毛佩琦先生指导下，耕注先贤原典，以宣纸线装精品形式呈奉世人。作为一家国学传播机构，崇贤馆始终致力于中华传统文化的传承和推广，以古籍线装宣纸书的形式，对浩繁的史海巨著进行经典复刻。不仅如此，崇贤馆还延请了傅璇琮、毛佩奇等诸位在国学界内享有盛誉的专家和学者担纲学术顾问，以精益求精的治学态度面对每一部崇贤馆的作品，使之成为学术史中无尚的精品。</p>
   </div>
 </template>
+
+
 <style>
   .detail {
+    max-width: 640px;
+    margin: 0 auto;
     padding: 0.24rem;
     font-size: 12px;
   }
@@ -27,6 +31,8 @@
     padding-bottom: 0.24rem;
   }
 </style>
+
+
 <script>
   import DetailHeader from '../components/DetailHeader'
 

@@ -14,7 +14,7 @@
 <style scoped>
   .sec_li {
     float: left;
-    width: 50%;
+    width: 33.3%;
     margin-bottom: 0.1rem;
   }
   .lp_li_a {

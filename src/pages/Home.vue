@@ -6,7 +6,7 @@
     <div class="content">
       <ul class="cont_ul">
         <list
-          v-for="item in items"
+          v-for="item in mod_items"
           :price="item.price"
           :title="item.title">
         </list>
@@ -14,6 +14,8 @@
     </div>
   </div>
 </template>
+
+
 <style>
   .container {
     max-width: 640px;
@@ -32,6 +34,8 @@
     clear: both;
   }
 </style>
+
+
 <script>
   // 导入要用到的子组件
   import HomeHeader from '../components/HomeHeader'
@@ -50,6 +54,11 @@
           { price: "188.00", title: "金刚经" },
           { price: "209.00", title: "易筋经" },
         ]
+      }
+    },
+    computed: {
+      mod_items : function () {
+        return this.items;
       }
     },
     // 在components字段中，包含导入的子组件
